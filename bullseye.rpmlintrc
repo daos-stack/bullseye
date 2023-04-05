@@ -1,0 +1,9 @@
+# This line is mandatory to access the configuration functions
+from Config import *
+
+addFilter("E: dir-or-file-in-opt").
+addFilter("W: source-not-compressed gz")
+addFilter("W: position-independent-executable-suggested")
+addFilter("W: no-documentation")
+addFilter("W: invalid-license Proprietary")
+addFilter("W: devel-file-in-non-devel-package")
